@@ -1,0 +1,5 @@
+node_modules/
+dist/dts/
+tsdoc-metadata.json
+.rollup.cache/
+tsconfig.tsbuildinfo

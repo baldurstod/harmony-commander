@@ -1,0 +1,22 @@
+{
+  "name": "harmony-commander",
+  "version": "0.0.1",
+  "description": "Control your web app by voice",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/dom-speech-recognition": "^0.0.4",
+    "rollup": "^4.34.8",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "compromise": "^14.14.4"
+  }
+}
